@@ -20,6 +20,8 @@ album2.save()
 album3 = Album.new({'album_name' => 'Sgt. peppers', 'artist_id' => artist2.id, 'genre' => 'classic'})
 album3.save()
 
+album2.delete()
+
 binding.pry
 
 return nil
