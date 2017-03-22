@@ -22,6 +22,9 @@ album3.save()
 
 album2.delete()
 
+Artist.find(artist1.id)
+Album.find(album3.id)
+
 binding.pry
 
 return nil
